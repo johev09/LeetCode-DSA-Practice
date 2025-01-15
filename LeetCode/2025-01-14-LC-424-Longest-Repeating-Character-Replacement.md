@@ -5,7 +5,7 @@
 
 It's a sliding window problem.
 
-![alt text](attachments/2025-02-13-LC-424-Longest-Repeating-Character-Replacement/image.png)
+![alt text](attachments/2025-01-14-LC-424-Longest-Repeating-Character-Replacement/image.png)
 source: [posted solution with Python code](https://leetcode.com/problems/longest-repeating-character-replacement/solutions/765776/python-two-pointers-process-for-coding-interviews)
 
 ## Solution
