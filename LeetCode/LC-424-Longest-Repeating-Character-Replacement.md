@@ -3,12 +3,15 @@
 
 ## Problem
 
-It's a sliding window problem.
+Link: https://leetcode.com/problems/longest-repeating-character-replacement/description/
+
+## Solution
+It's a sliding window problem. Following intuition helps to solve it.
 
 ![alt text](attachments/2025-01-14-LC-424-Longest-Repeating-Character-Replacement/image.png)
 source: [posted solution with Python code](https://leetcode.com/problems/longest-repeating-character-replacement/solutions/765776/python-two-pointers-process-for-coding-interviews)
 
-## Solution
+## Code
 
 ```python
 def index(c):
@@ -32,9 +35,7 @@ class Solution:
             longestSubString = max(longestSubString, r-l+1)
             r += 1 
 
-        return longestSubString 
-
-            
+        return longestSubString
 ```
 [my submission link](https://leetcode.com/problems/longest-repeating-character-replacement/submissions/1508993994)
 
